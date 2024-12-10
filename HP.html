@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Characters</title>
+    <link rel="stylesheet" href="style.css"> <!-- Ensure correct file path for your CSS -->
+</head>
+<body>
+    <header><br><br>
+        <h1 class="gold">Harry Potter Characters</h1>
+    </header>
+
+    <!-- Welcome Section -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Pop-Up</title>
+    <style>
+        /* Modal container */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        /* Modal content */
+        .modal-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Close button */
+        .close-btn {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .close-btn:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome to Hogwarts!</h2>
+            <p>Let's get to know our friends!</p>
+            <button class="close-btn" id="closeModal">Close</button>
+        </div>
+    </div>
+
+    <script>
+        // Get modal elements
+        const modal = document.getElementById('myModal');
+        const closeModalBtn = document.getElementById('closeModal');
+
+        // Automatically show the modal when the page loads
+        window.addEventListener('load', () => {
+            modal.style.display = 'flex'; // Show the modal
+        });
+
+        // Hide the modal when the "Close" button is clicked
+        closeModalBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Hide the modal when clicking outside the modal content
+        window.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
+
+    <div class="container">
+        <!-- Harry Potter Card -->
+        <div class="character-card">
+            <h2>Harry Potter</h2>
+            <p>The Boy who lived and the main protagonist of the series.</p>
+            <a href="HarryP.html">
+                <img class="character-card" src="img/Harry.jpeg" alt="Click to go to Harry Potter Page" style="cursor: pointer;"/>
+            </a>
+            <p>Click the image!</p>
+        </div>
+
+        <!-- Hermione Granger Card -->
+        <div class="character-card">
+            <h2>Hermione Granger</h2>
+            <p>The brightest witch of her age and Harry's close friend.</p>
+            <a href="Hermione.html">
+                <img class="character-card" src="img/hermione.jpeg" alt="Click to go to Hermione Page" style="cursor: pointer;"/>
+            </a>
+            <p>Click the image!</p>
+        </div>
+
+        <!-- Ron Weasley Card -->
+        <div class="character-card">
+            <h2>Ron Weasley</h2>
+            <p>Harry's loyal friend and a member of the Weasley family.</p>
+            <a href="Ron.html">
+                <img class="character-card" src="img/Ron.jpeg" alt="Click to go to Ron Page" style="cursor: pointer;"/>
+            </a>
+            <p>Click the image!</p>
+        </div>
+    </div>
+
+    <script>
+        function showInfo(message) {
+            alert(message);
+        }
+    </script>
+    
+    <br>
+    <h2 style="margin: 10px;">What I did</h2>
+    <p style="color: antiquewhite; font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-left: 5%;">1 I change the fonts using CSS<br>
+        2 I add the boxes for the character information(CSS)<br>
+        3 Change every site's background based on the character (CSS)<br>
+        4 I add the return to home page button<br>
+        5 I change the normal photos to a button<br>
+        6 Adding the photos in the websites (Hermione, Ron, Harry)<br>
+        7 Adding my name to every page<br>
+        8 Change the color of the listing skills<br>
+        <footer style="text-align:center; font-family: Magicfont; font-size: 30px; color:antiquewhite;">
+            By KONGKKHAM KALLAYA StudentID:24224528
+        </footer>
+    </p>
+</body>
+</html>
+
+
+
