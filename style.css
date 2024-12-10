@@ -97,7 +97,7 @@ h1.gold {
 /* Custom Fonts */
 @font-face {
     font-family: 'MagicFont';
-    src: url('fonts/MagicFont.ttf') format('truetype');
+    src: url('fonts/MagicFont.TTF') format('truetype');
 }
 
 @font-face {
